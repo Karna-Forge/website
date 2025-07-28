@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KarnaForge - Open Source with Courage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0e0e0e;
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            background: url('karna.jpg') no-repeat center center/cover;
+            background-color: #0e0e0e;
+            position: absolute;
+            inset: 0;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 12px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 2rem;
+            border-radius: 12px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+
+        }
+
+        footer {
+            position: absolute;
+            bottom: 1rem;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <h1>Forging Code with Courage, Inspired by genrosity of Karna</h1>
+        <p>An open source community driven by purpose, not profit<br />
+            Built to empower, share, and uplift through technology</p>
+    </div>
+
+    <footer>
+        Contact us: <a href="mailto:contact@karnaforge.dev"
+            style="color: #ccc; text-decoration: underline;">contact@karnaforge.dev</a>
+    </footer>
+</body>
+
+</html>
